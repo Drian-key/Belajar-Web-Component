@@ -1,3 +1,4 @@
+// Bagian Custom Element
 console.log("Hello, web components");
 
 class MyComponent extends HTMLElement {
@@ -8,6 +9,7 @@ class MyComponent extends HTMLElement {
 
 customElements.define('my-component', MyComponent);
 
+// Bagian Shadow DOM
 const shadowRoot = document.querySelector('#root').attachShadow({mode: 'open'});
 shadowRoot.innerHTML = `
 <style type="text/css" media="screen">
@@ -18,3 +20,4 @@ h1{
 </style>
 <h1>hi</h1>
 `;
+
