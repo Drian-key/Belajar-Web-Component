@@ -1,1 +1,1 @@
-Belajar Web component untuk lanjut ke react
+Belajar Web component untuk lanjut ke react.
